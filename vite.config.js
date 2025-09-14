@@ -5,6 +5,10 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	preview: {
-		allowedHosts: ['svelte-tutorial-app-production.up.railway.app', 'pocketpaste.shop']
+		allowedHosts: [
+			'svelte-tutorial-app-production.up.railway.app',
+			'pocketpaste.shop',
+			'www.pocketpaste.shop'
+		]
 	}
 });
